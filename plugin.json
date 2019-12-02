@@ -1,0 +1,19 @@
+{
+    "id": "trivia",
+    "name": "Mattermost Trivia Plugin",
+    "description": "This is a Mattermost trivia plugin.",
+    "version": "0.1.1",
+    "min_server_version": "5.12.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "darwin-amd64": "server/dist/plugin-darwin-amd64",
+            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+        }
+    },
+    "settings_schema": {
+        "header": "",
+        "footer": "",
+        "settings": []
+    }
+}
